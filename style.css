@@ -1,11 +1,15 @@
 
 header {
-    background-color: #1F2937;
     height: 100px;
+    background-color: #1F2937;
 }
 
 .toomuchclasses {
     background-color: #1F2937;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -21,7 +25,7 @@ p {
     color: #E5E7E9;
 }
 
-button {
+.signupbtn {
     color: white;
     border: #3882F6;
     background-color: #3882F6;
@@ -52,6 +56,7 @@ button {
 }
 
 footer {
+    height: 100px;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
@@ -63,12 +68,95 @@ ul {
     color: #F9FAF8;
     list-style-type: none;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: end;
-    gap: 50px;
+    gap: 30px;
     padding-left: 0px;
 }
 
-.logo {
-    margin-right: auto;
+
+.logo2 {
+    height: 60px;
+    width: auto;
+}
+
+.four {
+    height: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 52px;
+}
+
+.small {
+    width: 140px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: cursive;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text {
+    font-size: small;
+    font-family: cursive;
+    width: 200px;
+}
+
+.five {
+    height: 400px;
+    background-color: #E5E7E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2 {
+    font-size: 26px;
+    font-style: italic;
+    color: #1F2937;
+    height: 200px;
+    width: 750px;
+}
+
+.six {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seven {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    padding: 20px 50px;
+    gap: 50px;
+    border-radius: 15px;
+}
+
+.nine {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    max-width: 120px;
+    padding: 10px 20px;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: white;
+}
+
+p {
+    font-family: sans-serif;
 }
